@@ -7,10 +7,15 @@ Esta guía define el protocolo estándar para concebir, inicializar, estructurar
 ## 🧭 Flujo Cronológico de Desarrollo (De Cero a Producción)
 
 ```text
-[1. Definición & Stack] ──► [2. Crear AI_CONTEXT.md] ──► [3. Scaffold & UI Kit]
-                                                                  │
-[5. Construcción Módulos] ◄── [4. Base de Datos & Types] ◄────────┘
-
+[1. Definición & Stack]
+          ▼
+[2. Crear AI_CONTEXT.md]
+          ▼
+[3. Scaffold & UI Kit]
+          ▼
+[4. Base de Datos & Types]
+          ▼
+[5. Construcción Módulos]
 ```
 
 ## 📋 Fase 1: Definición de Negocio y Selección de Stack
