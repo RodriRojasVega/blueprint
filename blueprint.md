@@ -63,10 +63,11 @@ npm install lucide-react @supabase/supabase-js react-router-dom
 
 ### 2. Configuración de Alias (`@/` = `src/`)
 
-* **`tsconfig.json`:**
+* **`tsconfig.app.json`:**
 ```json
 {
   "compilerOptions": {
+    // ... otras configuraciones
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
