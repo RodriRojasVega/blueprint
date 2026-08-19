@@ -1,4 +1,3 @@
-```markdown
 # 🏛️ Project Blueprint & Metodología de Desarrollo Frontend
 
 Esta guía define el protocolo estándar para concebir, inicializar, estructurar y desarrollar aplicaciones web y PWAs de alto rendimiento utilizando un enfoque modular (**Feature-Driven Architecture**), **Atomic Design pragmático** y desarrollo asistido por IA.
@@ -13,8 +12,6 @@ Esta guía define el protocolo estándar para concebir, inicializar, estructurar
 [5. Construcción Módulos] ◄── [4. Base de Datos & Types] ◄────────┘
 
 ```
-
----
 
 ## 📋 Fase 1: Definición de Negocio y Selección de Stack
 
