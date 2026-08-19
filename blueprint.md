@@ -95,7 +95,10 @@ export default defineConfig({
 
 ```
 
-
+Instalar @types/node si te marca error en __dirname:
+```
+npm i -D @types/node
+```
 
 ### 3. Portabilidad del UI Kit Base
 
