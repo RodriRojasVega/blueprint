@@ -25,7 +25,7 @@ Antes de inicializar código o generar reglas de IA, define:
 1. **Tipo de Producto:** PWA de gestión/B2B, SPA administrativa, e-commerce B2C, etc.
 2. **Stack Estándar Recomendado:**
 * **Core:** React (Vite) + TypeScript (Modo Estricto).
-* **Estilos:** Tailwind CSS.
+* **Estilos:** Tailwind CSS V3.
 * **Iconografía:** `lucide-react`.
 * **BaaS / Backend:** Supabase (PostgreSQL + Auth + Storage + Realtime).
 * **Despliegue:** Netlify / Vercel.
@@ -55,7 +55,7 @@ Adapta la plantilla de contexto al nuevo proyecto. Este archivo debe ubicarse en
 npm create vite@latest nombre-app -- --template react-ts
 cd nombre-app
 npm install
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
 npm install lucide-react @supabase/supabase-js react-router-dom
 
